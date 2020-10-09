@@ -24,7 +24,7 @@ module.exports = boxen(
       'to collaborate and meet new people. Shoot me an'
     )}`,
     `${chalk.italic.magentaBright(
-      'email or check out my work. At the links above'
+      'email or check out my work at the links above'
     )}`,
     `${chalk.italic.magentaBright("and below. I'm always happy to chat!")}`,
   ].join('\n'),
