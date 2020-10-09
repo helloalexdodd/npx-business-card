@@ -1,4 +1,5 @@
 const open = require('open');
+const { localeCompare } = require('./card');
 const { repo, website, email } = require('./lib/copy');
 
 module.exports = [
@@ -6,6 +7,7 @@ module.exports = [
     type: 'list',
     name: 'action',
     message: 'What would you like to do?',
+    loop: true,
     choices: [
       {
         name: `📩  Send me an email?`,

@@ -1,4 +1,6 @@
-Hey there! 👋🏻 Just trying typing
+Hey there! 👋🏻
+
+Just try typing:
 
 ```
 npx helloalexdodd

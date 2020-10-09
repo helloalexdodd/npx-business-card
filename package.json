@@ -2,6 +2,12 @@
   "name": "helloalexdodd",
   "version": "1.0.6",
   "description": "an npx business card",
+  "keywords": [
+    "node",
+    "terminal",
+    "portfolio",
+    "ascii"
+  ],
   "main": "card.js",
   "bin": {
     "helloalexdodd": "./cli.js"
