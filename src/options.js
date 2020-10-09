@@ -1,20 +1,18 @@
 const open = require('open');
-const { localeCompare } = require('./card');
-const { repo, website, email } = require('./lib/copy');
+const { repo, website, email } = require('../lib/copy');
 
 module.exports = [
   {
     type: 'list',
     name: 'action',
     message: 'What would you like to do?',
-    loop: true,
     choices: [
       {
-        name: `📩  Send me an email?`,
+        name: '📩  Send me an email?',
         value: () => {
           open(`mailto:${email}`);
           console.log(
-            '\nThanks for reaching out. Looking forward to reading your email!\n'
+            '\nThanks for reaching out. Looking forward to reading your email!\n',
           );
         },
       },

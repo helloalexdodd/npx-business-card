@@ -8,9 +8,9 @@
     "portfolio",
     "ascii"
   ],
-  "main": "card.js",
+  "main": "cli.js",
   "bin": {
-    "helloalexdodd": "./cli.js"
+    "helloalexdodd": "./index.js"
   },
   "scripts": {
     "release": "npm version patch & npm publish"
@@ -25,5 +25,14 @@
     "open": "^7.3.0",
     "package": "^1.0.1",
     "terminal-link": "^2.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.10.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.1.2",
+    "prettier-eslint": "^11.0.0"
   }
 }
