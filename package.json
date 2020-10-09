@@ -1,11 +1,13 @@
 {
   "name": "helloalexdodd",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "an npx business card",
-  "main": "index.js",
+  "main": "card.js",
+  "bin": {
+    "helloalexdodd": "./cli.js"
+  },
   "scripts": {
-    "main": "./cli.js",
-    "bin": "./cli.js"
+    "release": "npm version patch & npm publish"
   },
   "author": "",
   "license": "ISC",
