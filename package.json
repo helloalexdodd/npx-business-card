@@ -17,6 +17,7 @@
     "clear": "^0.1.0",
     "inquirer": "^7.3.3",
     "open": "^7.3.0",
-    "package": "^1.0.1"
+    "package": "^1.0.1",
+    "terminal-link": "^2.1.1"
   }
 }

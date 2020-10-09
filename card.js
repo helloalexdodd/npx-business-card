@@ -1,3 +1,4 @@
+const terminalLink = require('terminal-link');
 const boxen = require('boxen');
 const chalk = require('chalk');
 const data = require('./lib/data');
@@ -13,7 +14,8 @@ module.exports = boxen(
     `${data.labelLinkedIn}  ${data.linkedIn}`,
     `${data.labelWeb}  ${data.website}`,
     ``,
-    `${data.labelCard}  ${data.npx}`,
+
+    `${data.labelNpm}  ${terminalLink(`${data.npm}`, data.npmLink)}`,
     ``,
     `${chalk.italic.magentaBright(
       'I am a passionate developer who is always looking'
