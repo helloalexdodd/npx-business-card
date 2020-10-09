@@ -34,7 +34,7 @@ options = [
         )}\n`,
       },
       {
-        name: '🗂   Visit my portfolio?',
+        name: '🎨  Visit my portfolio?',
         loop: true,
         value: () => {
           open(website);
