@@ -29,10 +29,10 @@ module.exports = boxen(
     `${chalk.italic.magentaBright("and below. I'm always happy to chat!")}`,
   ].join('\n'),
   {
-    margin: 2,
-    float: 'center',
-    padding: 2,
-    borderStyle: 'double',
+    margin: { bottom: 0, left: 2 },
+    padding: 1,
+    borderStyle: 'round',
     borderColor: 'magenta',
+    backgroundColor: '#14191e',
   }
 );

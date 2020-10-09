@@ -5,12 +5,14 @@ const { createPromptModule } = require('inquirer');
 const clear = require('clear');
 const card = require('./card');
 const options = require('./options');
+const portrait = require('./drawing');
 
 clear();
 
 const prompt = createPromptModule();
 
 console.log(card);
+console.log(portrait);
 
 const tip = [
   `Tip: You can ${chalk.cyanBright.bold(
