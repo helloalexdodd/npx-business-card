@@ -17,6 +17,7 @@ const portrait = [
 ];
 
 let i = 0;
+
 const print = () => {
   const timeout = 150;
   return new Promise((res) => {

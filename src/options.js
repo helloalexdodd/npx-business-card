@@ -30,18 +30,18 @@ options = [
           ask();
         },
         short: `\n\n${yellow('  Send me an email!')} \n\n${blue(
-          "Thanks for reaching out. I'm Looking forward to reading your email!",
+          "  Thanks for reaching out. I'm Looking forward to reading your email!",
         )}\n`,
       },
       {
-        name: '🎨  Visit my portfolio?',
+        name: '🎨  Visit my domain?',
         loop: true,
         value: () => {
           open(website);
           ask();
         },
-        short: `\n\n${yellow('  Visit my portfolio!')} \n\n${blue(
-          "🤙🏻  Hey what's up?",
+        short: `\n\n${yellow('  Visit my domain!')} \n\n${blue(
+          "  🤙🏻  Hey what's up?",
         )}\n`,
       },
       {
@@ -52,13 +52,13 @@ options = [
           ask();
         },
         short: `\n\n${yellow('  See how I did it!')} \n\n${blue(
-          '🚂  Here we go!',
+          '  🚂  Here we go!',
         )}\n`,
       },
       {
         name: '👋🏻  Wave goodbye!',
         value: () => {},
-        short: `\n\n${blue('👋🏻  Bye bye!')}\n`,
+        short: `\n\n${blue('  👋🏻  Bye bye!')}\n`,
       },
     ],
   },

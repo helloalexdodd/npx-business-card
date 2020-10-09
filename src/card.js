@@ -31,6 +31,5 @@ module.exports = boxen(
     padding: 1,
     borderStyle: 'round',
     borderColor: 'magenta',
-    backgroundColor: '#14191e',
   },
 );
