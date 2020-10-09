@@ -1,6 +1,6 @@
 const terminalLink = require('terminal-link');
 const boxen = require('boxen');
-const chalk = require('chalk');
+const { magentaBright } = require('chalk');
 const data = require('../lib/data');
 
 module.exports = boxen(
@@ -17,16 +17,14 @@ module.exports = boxen(
 
     `${data.labelNpm}  ${terminalLink(`${data.npm}`, data.npmLink)}`,
     '',
-    `${chalk.italic.magentaBright(
+    `${magentaBright.italic(
       'I am a passionate developer who is always looking',
     )}`,
-    `${chalk.italic.magentaBright(
+    `${magentaBright.italic(
       'to collaborate and meet new people. Shoot me an',
     )}`,
-    `${chalk.italic.magentaBright(
-      'email or check out my work at the links above',
-    )}`,
-    `${chalk.italic.magentaBright("and below. I'm always happy to chat!")}`,
+    `${magentaBright.italic('email or check out my work at the links above')}`,
+    `${magentaBright.italic("and below. I'm always happy to chat!")}`,
   ].join('\n'),
   {
     margin: { bottom: 0, left: 2 },
